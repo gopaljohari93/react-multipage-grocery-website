@@ -1,6 +1,6 @@
 import React from "react";
 import CategoryPage from "../CategoryPage/CategoryPage";
-import BgContact from "../../assets/about-banner.jpg";
+import BgContact from "../../assets/about-banner.webp";
 
 const Contact = () => {
   return (

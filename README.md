@@ -1,16 +1,74 @@
-# React + Vite
+# 🥦 React Multi-Page Grocery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **multi-page Grocery Website** built with React, featuring **dynamic product listings, shopping cart functionality, and a fully responsive UI**.  
+This project demonstrates real-world ecommerce patterns using **Redux Toolkit**, smooth navigation, and modern UI libraries.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## React Compiler
+👉 https://grocery-react-website.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🛍️ Dynamic grocery product listings
+- 🛒 Add / Remove products from cart
+- 🔢 Product quantity control
+- 💰 Automatic cart total calculation
+- ⚛️ Global state management using Redux Toolkit
+- 🧭 Multi-page routing with React Router DOM
+- 🎨 Modern UI using Tailwind CSS
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- 🎠 Product sliders using Swiper.js
+- 🌟 Clean icons with React Icons
+- ⚡ Optimized performance & reusable components
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- JavaScript (ES6+)
+- React Router DOM
+- Redux Toolkit
+- Tailwind CSS
+- React Icons
+- Swiper.js
+
+---
+
+## 📂 Project Structure
+
+```bash
+react-multipage-grocery-website/
+│── public/
+│── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── common/
+│   │   ├── product/
+│   │   ├── cart/
+│   │   ├── slider/
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Products.jsx
+│   │   ├── Cart.jsx
+│   │   ├── About.jsx
+│   │   └── Contact.jsx
+│   ├── redux/
+│   │   ├── store.js
+│   │   └── cartSlice.js
+│   ├── routes/
+│   │   └── AppRoutes.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│── tailwind.config.js
+│── package.json
+│── README.md
+```
